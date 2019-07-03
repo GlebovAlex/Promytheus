@@ -68,6 +68,16 @@ class TestLoginPage(unittest.TestCase):
         message = login.check_invalid_email_or_pass_error_message()
         self.assertEqual(message, "Invalid Email or Password.")
 
+    def test_06_login_blank_email_blank_pass(self):
+        # Test Case 6: Verify unsuccessful login/expected error messages with blank email/blank password
+        driver = self.driver
+        driver.get("https://app.promytheus.net")
+        login = LoginPage(driver)
+        login.click_login_button()
+        time.sleep(1)
+        msg_pass = login.check_blank_pass_error_message()
+        self.assertEqual(msg_pass, "This value is required.")
+
     @classmethod
     def tearDownClass(cls):
         # Close window
