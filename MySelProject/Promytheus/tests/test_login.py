@@ -77,6 +77,8 @@ class TestLoginPage(unittest.TestCase):
         time.sleep(1)
         msg_email = login.check_blank_email_error_message()
         self.assertEqual(msg_email, "This value is required.")
+        msg_pass = login.check_blank_pass_error_message()
+        self.assertEqual(msg_pass, "This value is required.")
 
     @classmethod
     def tearDownClass(cls):
