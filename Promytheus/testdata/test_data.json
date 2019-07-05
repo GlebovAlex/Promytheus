@@ -1,0 +1,20 @@
+{
+  "login_test_data": {
+    "user_1": {
+      "email": "pmeu.test1@gmail.com",
+      "password": "password123"
+    },
+    "user_2_new": {
+      "email": "pmeu.test2@gmail.com",
+      "password": "password321"
+    },
+    "user_3_uce": {
+      "email": "pmeu.test1+user1@gmail.com",
+      "password": "mypassword"
+    },
+    "invalid_user": {
+      "email": "pmeu.test11@gmail.com",
+      "password": "password124"
+    }
+  }
+}
