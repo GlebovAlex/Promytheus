@@ -1,4 +1,4 @@
-credentials = {"email": "jolee.test1@gmail.com", "password": "password"}
+credentials = {"email": "j.tausia@hotmail.com", "password": "testing123"}
 invalid_credentials = {"email": "jolee.test1@gmail.com1", "password": "password1"}
 
 valid_email = credentials["email"]
