@@ -16,5 +16,9 @@
       "email": "pmeu.test11@gmail.com",
       "password": "password124"
     }
+  },
+  "talent_test_data": {
+    "email": "j.tausia@hotmail.com",
+    "password": "testing123"
   }
 }

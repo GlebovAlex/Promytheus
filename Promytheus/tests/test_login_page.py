@@ -170,4 +170,4 @@ class TestLoginPage(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=
-                                                           "C:/Users/jolee/PyCharmProjects/MySelProject/Promytheus/reports"))
+                                                           "/Users/jabeentausia/PycharmProjects/Promytheus/MySelProject/Promytheus/reports"))
