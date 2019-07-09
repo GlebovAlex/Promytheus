@@ -47,7 +47,8 @@ class LoginPage:
         return msg
 
     def click_register_button(self):
-        self.driver.find_element_by_xpath(self.register_btn_xpath).click()
+        ele = self.driver.find_element_by_xpath(self.register_btn_xpath).click()
+        self.driver.execute_script("arguments[0].click();", ele)
 
     def click_reset_password_link(self):
         self.driver.find_element_by_xpath(self.reset_pass_link_xpath).click()

@@ -2,7 +2,8 @@
   "login_test_data": {
     "user_1": {
       "email": "pmeu.test1@gmail.com",
-      "password": "password123"
+      "password": "password123",
+      "password_2": "newpassword123"
     },
     "user_2_new": {
       "email": "pmeu.test2@gmail.com",

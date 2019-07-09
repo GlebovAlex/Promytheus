@@ -1,12 +1,12 @@
-from selenium import webdriver
 import unittest
 import time
 import json
 import HtmlTestRunner
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import sys
 import os
-
-sys.path.append(os.path.join(os.path.dirname(__file__), ".", "."))
+sys.path.append(os.path.join(os.path.dirname(__file__), ".", ".."))
 from pages.login_page import LoginPage
 from pages.home_page import HomePage
 from browsers.browser import Browser
@@ -167,7 +167,9 @@ class TestLoginPage(unittest.TestCase):
         cls.driver.quit()
         print("Test Complete")
 
-
 if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=
-                                                           "C:/Users/jolee/PyCharmProjects/MySelProject/Promytheus/reports"))
+    unittest.main()
+
+# if __name__ == '__main__':
+#     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=
+#                                                            "C:/Users/jolee/PyCharmProjects/MySelProject/Promytheus/reports"))
