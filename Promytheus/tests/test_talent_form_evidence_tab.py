@@ -34,8 +34,8 @@ class TestTalentsEvidenceTab(unittest.TestCase):
         ev.click_evidence_tab_link()
         if not driver.find_element_by_xpath(ev.testimony_checkbox_family_xpath).is_selected():
             ev.click_family_checkbox()
-            ev.click_family_checkbox()
         else:
+            ev.click_family_checkbox()
             ev.click_family_checkbox()
         time.sleep(1)
         ev.click_teachers_checkbox()

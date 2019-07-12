@@ -48,7 +48,7 @@ class Locators:
     # Next button
     next_btn = "//form[@id='talentForm']//button[text()='Next']"
     # Previous button
-    prev_btn = "//form[@id='talentForm']//button[text()='Next']"
+    prev_btn = "//form[@id='talentForm']//button[text()='Previous']"
 
     # ------------------------------------ Category Tab ------------------------------------
     category_select_xpath = "//label[text()='Category']/parent::div//div[@name='category']/div/span"

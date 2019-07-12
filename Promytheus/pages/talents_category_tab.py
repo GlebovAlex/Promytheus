@@ -24,7 +24,7 @@ class TalentsForm:
         self.driver.execute_script("arguments[0].click();", ele)
 
     def click_previous_btn(self):
-        ele = self.driver.find_element_by_xpath(self.prev_btn).click()
+        ele = self.driver.find_element_by_xpath(self.prev_btn)
         self.driver.execute_script("arguments[0].click();", ele)
 
     def click_category_field(self):
