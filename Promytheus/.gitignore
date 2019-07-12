@@ -1,0 +1,27 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore node_modules folder
+node_modules
+
+# Ignore all text files
+*.txt
+
+# Ignore files related to API keys
+.env
+
+# Ignore SASS config files
+.sass-cache
+
+# .pyc files
+ __pycache__/
+ *.pyc
+
+# image file
+*.jpg
+
+tests/practice_api.py
+tests/test_select_dropdown.py
+tests/test_switch_frames.py
+tests/test_uploadimg.py
+tests/test_switch_window.py
