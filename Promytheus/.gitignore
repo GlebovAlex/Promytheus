@@ -25,3 +25,4 @@ tests/test_select_dropdown.py
 tests/test_switch_frames.py
 tests/test_uploadimg.py
 tests/test_switch_window.py
+tests/test_mousehover.py
