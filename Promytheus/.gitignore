@@ -14,8 +14,8 @@ node_modules
 .sass-cache
 
 # .pyc files
- __pycache__/
- *.pyc
+__pycache__/
+*.pyc
 
 # image file
 *.jpg
