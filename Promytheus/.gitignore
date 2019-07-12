@@ -14,6 +14,10 @@ node_modules
 .sass-cache
 
 # .pyc files
+locators/__pycache__/locators.cpython-37.pyc
+pages/__pycache__/home_page.cpython-37.pyc
+pages/__pycache__/login_page.cpython-37.pyc
+tests/__pycache/test_login_page.cpython-37.pyc
 *.pyc
 
 # image file
