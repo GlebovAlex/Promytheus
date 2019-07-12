@@ -9,7 +9,8 @@ import json
 sys.path.append(os.path.join(os.path.dirname(__file__), ".", "."))
 from pages.login_page import LoginPage
 from browsers.browser import Browser
-from pages.talent_page import TalentPage
+from pages.personal_page import TalentPage
+from pages.talenttrait_page import TraitsPage
 
 class TestLoginPage(unittest.TestCase):
 
@@ -42,12 +43,19 @@ class TestLoginPage(unittest.TestCase):
 
         login.click_login_button()  # Click the login button
 
-        #Creating talent
+        #Filling the personal tab form
         talent=TalentPage(driver)
         talent.create_talent_personal_tab()
         time.sleep(1)
 
-        time.sleep(3)  # Title page takes some time to change
+
+
+        #talent trait form
+        trait=TraitsPage(driver)
+        trait.complete_talent_trait_tab()
+        time.sleep(2)
+
+
 
 
 

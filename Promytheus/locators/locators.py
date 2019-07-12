@@ -16,9 +16,8 @@ class Locators:
 
     # Registration Page locators
 
-    # Personal Tab
 
-    # Talent Page Locators
+    # New Talent Page Locators
     new_button_xpath = "//a[@class='btn btn-primary mr']"
     category_xpath = "//div[@class='col-lg-10']//div[@name='category']"
     painting_xpath = "//span[@class='ui-select-choices-row-inner'][contains(text(),'Painting')]"
@@ -42,3 +41,20 @@ class Locators:
     personalPage_next_button_xpath = "//div[@class='form-wizard-footer']//button[@class='btn btn-primary ng-binding'][contains(text(),'Next')]"
 
     # Talent Traits Locators
+    first_question_xpath = "//fieldset[1]//trait-scaler[1]//button[9]"
+    second_question_xpath = "//fieldset[2]//trait-scaler[1]//button[8]"
+    third_question_xpath = "//div[@class='row']//div[2]//div[1]//fieldset[3]//trait-scaler[1]//button[8]"
+    fourth_question_xpath = "//fieldset[4]//trait-scaler[1]//button[5]"
+    fifth_question_xpath = "//fieldset[5]//trait-scaler[1]//button[9]"
+    sixth_question_xpath = "//fieldset[6]//trait-scaler[1]//button[9]"
+    seventh_question_xpath = "//fieldset[7]//trait-scaler[1]//button[9]"
+    eight_question_xpath = "//fieldset[8]//trait-scaler[1]//button[9]"
+    ninth_question_xpath = "//fieldset[9]//trait-scaler[1]//button[8]"
+    tenth_question_xpath = "//fieldset[10]//trait-scaler[1]//button[9]"
+    eleventh_question_xpath = "//fieldset[11]//trait-scaler[1]//button[5]"
+    twelfth_question_xpath = "//fieldset[12]//trait-scaler[1]//button[5]"
+    thirteenth_question_xpath = "//fieldset[13]//trait-scaler[1]//button[9]"
+    fourteenth_question_xpath = "//fieldset[14]//trait-scaler[1]//button[5]"
+    fifteenth_question_xpath = "//fieldset[15]//trait-scaler[1]//button[5]"
+    sixteenth_question_xpath = "//fieldset[16]//trait-scaler[1]//button[5]"
+    traits_next_button_xpath = "//div[@class='form-wizard-footer']//button[@class='btn btn-primary ng-binding'][contains(text(),'Next')] "

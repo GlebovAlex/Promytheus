@@ -43,6 +43,7 @@ class TestLoginPage(unittest.TestCase):
         home.click_user_icon()
         home.click_sign_out()
 
+
     def test_02_unsuccessful_login_invalid_email(self):
         # Test Case 2: Verify unsuccessful login/expected error message with invalid email/valid password
         with open('C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
