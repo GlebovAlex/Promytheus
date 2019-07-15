@@ -1,4 +1,7 @@
 from locators.locators import Locators
+from pages.talents_category_tab import TalentsForm
+
+import time
 
 
 class TalentsEvidence:
@@ -56,4 +59,38 @@ class TalentsEvidence:
     def upload_file_talent_work_product_field(self, file_path):
         self.driver.find_element_by_xpath(self.talent_work_product_upload_file_btn_xpath).send_keys(file_path)
 
+    def nav_evidence_tab(self):
+        self.click_evidence_tab_link()
+        if not self.driver.find_element_by_xpath(self.testimony_checkbox_family_xpath).is_selected():
+            self.click_family_checkbox()
+        else:
+            self.click_family_checkbox()
+            self.click_family_checkbox()
+        time.sleep(1)
+        self.click_teachers_checkbox()
+        self.click_friends_checkbox()
+        self.click_coworkers_checkbox()
+        self.click_coworkers_checkbox()
+        self.click_friends_checkbox()
+        self.click_teachers_checkbox()
+        time.sleep(1)
+        self.enter_text_in_testimony_family_text_box_01("Testing")
+        time.sleep(1)
+        self.upload_file_family_01_field("C:/Users/jolee/Desktop/Moon_Chae-Won-p001.jpg")
+        time.sleep(2)
+        self.enter_text_in_talent_work_product_field("Testing")
+        time.sleep(1)
+        self.upload_file_talent_work_product_field("C:/Users/jolee/Desktop/Moon_Chae-Won-p001.jpg")
+        time.sleep(1)
 
+        # Clean up
+        self.driver.find_element_by_xpath(self.testimony_family_textbox_01_xpath).clear()
+        time.sleep(1)
+        self.driver.find_element_by_xpath(self.talent_work_product_textfield_xpath).clear()
+        time.sleep(1)
+        self.driver.find_element_by_xpath(self.testimony_checkbox_family_xpath).click()
+        time.sleep(1)
+
+        t = TalentsForm()
+        time.sleep(1)
+        t.click_next_btn()
