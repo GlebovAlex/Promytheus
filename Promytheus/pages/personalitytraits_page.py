@@ -1,4 +1,4 @@
-from Promytheus.locators import locators
+from locators import locators
 
 class p_traits():
     def __init__(self,driver):
@@ -27,4 +27,7 @@ class p_traits():
         self.driver.find_element_by_xpath(self.stry_age_xpath).send_keys("9")
         self.driver.find_element_by_xpath(self.stry_interest_level_xpath).click()
         self.driver.find_element_by_xpath(self.stry_interest_menusel_xpath).click()
+
+
+    def click_next_button_storytab(self):
         self.driver.find_element_by_xpath(self.stry_nextbtn_xpath).click()

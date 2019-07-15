@@ -14,6 +14,7 @@ from pages.talenttrait_page import TraitsPage
 from pages.talents_category_tab import TalentsForm
 from pages.talents_evidence_tab import TalentsEvidence
 from pages.talents_training_tab import TalentsTraining
+from pages.personalitytraits_page import p_traits
 
 
 class TestLoginPage(unittest.TestCase):
@@ -59,6 +60,31 @@ class TestLoginPage(unittest.TestCase):
         trait.complete_talent_trait_tab()
         time.sleep(4)
 
+        # Lavanya
+        #personality traits tab
+        ptraits = p_traits(driver)
+        time.sleep(2)
+        ptraits.click_traits_tab()
+        time.sleep(2)
+
+        # clicking on the check boxes in the personality traits page
+        ptraits.click_chkbx_pttab()
+        time.sleep(1)
+
+        # click next button to navigate to story page
+        ptraits.click_next_btn()
+        time.sleep(2)
+
+        #story tab
+        ptraits.enter_age_storytab()
+        time.sleep(2)
+
+        #click next button on stroy tab
+        ptraits.click_next_button_storytab()
+        time.sleep(2)
+
+
+        # joan
         # Talent Evidence form
         ev = TalentsEvidence(driver)
         ev.click_evidence_tab_link()
@@ -141,6 +167,14 @@ class TestLoginPage(unittest.TestCase):
         tr.click_advanced_skill_level_radio()
         tr.click_pro_skill_level_radio()
         time.sleep(5)
+        ptraits.click_next_btn()
+        time.sleep(3)
+        ptraits.click_next_btn()
+        time.sleep(3)
+
+        driver.find_element_by_xpath("//div[@class='form-wizard-footer']//button[@class='btn btn-primary ng-binding'][contains(text(),'Finish')] ").click()
+        time.sleep(2)
+        driver.find_element_by_xpath("//button[@class='cancel']").click()
 
     @classmethod
     def tearDownClass(cls):
