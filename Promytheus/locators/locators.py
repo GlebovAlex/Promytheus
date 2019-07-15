@@ -109,6 +109,8 @@ class Locators:
     # family_01_upload_file_btn_xpath = "//button[@name='testimonyFileFieldFamily0']"
     talent_work_product_upload_file_btn_xpath = "//button[@name='workProductFile']"
 
+    evidence_tab_next_btn = "//div[@class='form-wizard-footer']//button[@class='btn btn-primary ng-binding'][contains(text(),'Next')] "
+
     # ----------------------------------------------------- Training ------------------------------------------------
 
     # Training tab link
@@ -147,7 +149,7 @@ class Locators:
     skill_level_radio_pro_xpath = "//input[@name='skill']/parent::label[text()='Pro']/span"
 
     # Next button
-    training_button_next_xpath = "//button[text()='Next']"
+    training_button_next_xpath = "//div[@class='form-wizard-footer']//button[@class='btn btn-primary ng-binding'][contains(text(),'Next')] "
     training_button_previous_xpath = "//button[text()='Previous']"
 
     # New Talent Page Locators

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4b576d7-63b4-44dd-adf5-01e3ac83d628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browsers/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/browsers/browser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/talents_evidence_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/talents_evidence_tab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_happy_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_happy_path.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locators/locators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="192" column="138" selection-start-line="192" selection-start-column="138" selection-end-line="192" selection-end-column="138" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/registration_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
-              <folding>
-                <element signature="e#1#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="337">
+              <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -37,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/browsers/browser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="68">
+              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -46,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_talent_form_evidence_tab.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="32" selection-start-line="32" selection-end-line="69" selection-end-column="21" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -55,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_talent_form_evidence_tab2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="264">
+              <caret line="32" selection-start-line="32" selection-end-line="34" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -70,11 +60,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/talents_evidence_tab.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="104">
+              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_talent_form_training_tab.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/talenttrait_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-281">
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/personalitytraits_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-87">
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -84,44 +115,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2770">
               <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/talenttrait_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_talenttraits_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="67" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -157,19 +150,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/test_mousehover.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/browsers/browser.py" />
-        <option value="$PROJECT_DIR$/locators/locators.py" />
         <option value="$PROJECT_DIR$/tests/test_login_page.py" />
         <option value="$PROJECT_DIR$/tests/test_talenttraits_page.py" />
-        <option value="$PROJECT_DIR$/tests/test_happy_path.py" />
-        <option value="$PROJECT_DIR$/pages/talents_evidence_tab.py" />
         <option value="$PROJECT_DIR$/tests/test_talent_form_evidence_tab2.py" />
+        <option value="$PROJECT_DIR$/browsers/browser.py" />
+        <option value="$PROJECT_DIR$/locators/locators.py" />
+        <option value="$PROJECT_DIR$/pages/talents_evidence_tab.py" />
+        <option value="$PROJECT_DIR$/tests/test_happy_path.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="16" />
+    <option name="x" value="-21" />
     <option name="width" value="1609" />
     <option name="height" value="1028" />
   </component>
@@ -238,10 +230,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jolee\Desktop\Selenium\Promytheus\tests" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jolee\Desktop\Selenium\Promytheus\tests" />
     </key>
   </component>
@@ -257,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_talent_form_evidence_tab2.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_happy_path.py">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Promytheus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in C:/Users/jolee/Desktop/Selenium/Promytheus/tests/test_mousehover.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_happy_path.TestLoginPage.test_create_talent_valid" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Promytheus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,11 +281,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_mousehover.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_happy_path.TestLoginPage.test_create_talent_valid&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in C:/Users/jolee/Desktop/Selenium/Promytheus/tests/test_select_dropdown.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_happy_path.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Promytheus" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,7 +295,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_select_dropdown.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_happy_path.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -337,11 +329,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_happy_path.py" />
+        <item itemvalue="Python tests.Unittests for test_happy_path.TestLoginPage.test_create_talent_valid" />
         <item itemvalue="Python tests.Unittests in test_talent_form_evidence_tab2.py" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Unittests in test_login_page.py" />
-        <item itemvalue="Python tests.Unittests in C:/Users/jolee/Desktop/Selenium/Promytheus/tests/test_mousehover.py" />
-        <item itemvalue="Python tests.Unittests in C:/Users/jolee/Desktop/Selenium/Promytheus/tests/test_select_dropdown.py" />
       </list>
     </recent_temporary>
   </component>
@@ -349,39 +341,39 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_select_dropdown_py - 2019.07.12 at 10h 58m 36s.xml">
-      <configuration name="Unittests in test_select_dropdown.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 10m 11s.xml">
+      <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_mousehover_py - 2019.07.12 at 10h 59m 31s.xml">
-      <configuration name="Unittests in test_mousehover.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_mousehover_py - 2019.07.12 at 11h 00m 45s.xml">
-      <configuration name="Unittests in test_mousehover.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_mousehover_py - 2019.07.12 at 11h 03m 45s.xml">
-      <configuration name="Unittests in test_mousehover.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_mousehover_py - 2019.07.12 at 11h 03m 50s.xml">
-      <configuration name="Unittests in test_mousehover.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_mousehover_py - 2019.07.12 at 11h 05m 45s.xml">
-      <configuration name="Unittests in test_mousehover.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_mousehover_py - 2019.07.12 at 11h 06m 06s.xml">
-      <configuration name="Unittests in test_mousehover.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_mousehover_py - 2019.07.12 at 11h 39m 20s.xml">
-      <configuration name="Unittests in test_mousehover.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login_page_py - 2019.07.13 at 22h 25m 06s.xml">
-      <configuration name="Unittests in test_login_page.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_talent_form_evidence_tab2_py - 2019.07.15 at 12h 49m 59s.xml">
+    <history-entry file="Unittests_in_test_talent_form_evidence_tab2_py - 2019.07.15 at 13h 12m 20s.xml">
       <configuration name="Unittests in test_talent_form_evidence_tab2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 12m 33s.xml">
+      <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 13m 20s.xml">
+      <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 16m 30s.xml">
+      <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_happy_path_TestLoginPage_test_create_talent_valid - 2019.07.15 at 13h 18m 56s.xml">
+      <configuration name="Unittests for test_happy_path.TestLoginPage.test_create_talent_valid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 19m 33s.xml">
+      <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 21m 06s.xml">
+      <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 22m 30s.xml">
+      <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 24m 14s.xml">
+      <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="16" width="1609" height="1028" extended-state="0" />
+    <frame x="-21" y="0" width="1609" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18586887" />
@@ -474,16 +466,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/practice_api.py" />
-    <entry file="file://$PROJECT_DIR$/tests/test_talent_form_training_tab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -547,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/personalitytraits_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/registration_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -564,36 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/browsers/browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locators/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="192" column="138" selection-start-line="192" selection-start-column="138" selection-end-line="192" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_login_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2770">
           <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/talenttrait_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,30 +556,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
+    <entry file="file://$PROJECT_DIR$/browsers/browser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locators/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="111" column="25" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_talent_form_training_tab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/talenttrait_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_talent_form_evidence_tab.py">
+    <entry file="file://$PROJECT_DIR$/pages/personalitytraits_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-87">
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/talents_evidence_tab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="104">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -639,8 +605,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_talent_form_evidence_tab2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="264">
+          <caret line="32" selection-start-line="32" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_talent_form_evidence_tab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="32" selection-start-line="32" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

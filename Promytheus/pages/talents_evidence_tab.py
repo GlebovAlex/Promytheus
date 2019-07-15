@@ -26,6 +26,8 @@ class TalentsEvidence:
         self.talent_work_product_textfield_xpath = Locators.talent_work_product_textfield_xpath
         self.talent_work_product_upload_file_btn_xpath = Locators.talent_work_product_upload_file_btn_xpath
 
+        self.evidence_tab_next_btn = Locators.evidence_tab_next_btn
+
         # ----------------------------------- Methods -----------------------------------
 
     def click_evidence_tab_link(self):
@@ -61,11 +63,12 @@ class TalentsEvidence:
 
     def nav_evidence_tab(self):
         self.click_evidence_tab_link()
-        if not self.driver.find_element_by_xpath(self.testimony_checkbox_family_xpath).is_selected():
-            self.click_family_checkbox()
-        else:
-            self.click_family_checkbox()
-            self.click_family_checkbox()
+        self.click_family_checkbox()
+        # if not self.driver.find_element_by_xpath(self.testimony_checkbox_family_xpath).is_selected():
+        #     self.click_family_checkbox()
+        # else:
+        #     self.click_family_checkbox()
+        #     self.click_family_checkbox()
         time.sleep(1)
         self.click_teachers_checkbox()
         self.click_friends_checkbox()
@@ -91,6 +94,4 @@ class TalentsEvidence:
         self.driver.find_element_by_xpath(self.testimony_checkbox_family_xpath).click()
         time.sleep(1)
 
-        t = TalentsForm()
-        time.sleep(1)
-        t.click_next_btn()
+        self.evidence_tab_next_btn.click()
