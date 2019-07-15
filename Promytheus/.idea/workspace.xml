@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/pages/registration_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -169,12 +169,27 @@
             <path>
               <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
+              <item name="browsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
               <item name="locators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
@@ -340,8 +355,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1628" height="1028" extended-state="0" />
-    <editor active="true" />
+    <frame x="29" y="93" width="1628" height="1028" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1836478" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -550,7 +564,7 @@
     <entry file="file://$PROJECT_DIR$/pages/registration_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
