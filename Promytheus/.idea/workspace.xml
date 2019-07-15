@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4b576d7-63b4-44dd-adf5-01e3ac83d628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/personal_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/talenttrait_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_personal_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_talenttraits_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsers/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/browsers/browser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testdata/test_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/test_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_happy_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_talenttraits_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_talenttraits_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,10 +74,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_talent_form_evidence_tab.py">
+        <entry file="file://$PROJECT_DIR$/tests/test_login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="49" column="85" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="85" />
+            <state relative-caret-position="2770">
+              <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/talenttrait_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_talenttraits_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="67" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -90,31 +108,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/talents_category_tab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/talents_evidence_tab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_login_page.py">
+        <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2770">
-              <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
+            <state relative-caret-position="434">
+              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,13 +155,15 @@
         <option value="$PROJECT_DIR$/browsers/browser.py" />
         <option value="$PROJECT_DIR$/locators/locators.py" />
         <option value="$PROJECT_DIR$/tests/test_login_page.py" />
+        <option value="$PROJECT_DIR$/tests/test_talenttraits_page.py" />
+        <option value="$PROJECT_DIR$/tests/test_happy_path.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-18" />
-    <option name="y" value="12" />
-    <option name="width" value="1628" />
+    <option name="x" value="12" />
+    <option name="y" value="6" />
+    <option name="width" value="1609" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -372,9 +374,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-18" y="12" width="1628" height="1028" extended-state="0" />
+    <frame x="12" y="6" width="1609" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1836478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18586887" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -591,6 +594,35 @@
           <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/talenttrait_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_talenttraits_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="67" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>

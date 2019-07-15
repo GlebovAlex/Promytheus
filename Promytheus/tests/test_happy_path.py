@@ -63,5 +63,4 @@ class TestLoginPage(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(
-        output="/Users/jabeentausia/PycharmProjects/Promytheus/MySelProject/Promytheus/reports"))
+    unittest.main()
