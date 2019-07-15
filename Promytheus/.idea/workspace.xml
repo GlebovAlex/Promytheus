@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4b576d7-63b4-44dd-adf5-01e3ac83d628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/personalitytraits_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_personalitytraits_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/personal_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/talenttrait_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_personal_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_talenttraits_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browsers/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/browsers/browser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdata/test_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/testdata/test_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locators/locators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+            <state relative-caret-position="350">
+              <caret line="192" column="138" selection-start-line="192" selection-start-column="138" selection-end-line="192" selection-end-column="138" />
             </state>
           </provider>
         </entry>
@@ -35,20 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/registration_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+              <folding>
+                <element signature="e#1#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/home_page.py">
+        <entry file="file://$PROJECT_DIR$/browsers/browser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -103,9 +108,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_login_page.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2770">
+              <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -116,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/browsers/browser.py" />
         <option value="$PROJECT_DIR$/practice/test_login.py" />
         <option value="$PROJECT_DIR$/tests/test_password_change.py" />
         <option value="$PROJECT_DIR$/testdata/test_data.json" />
@@ -125,7 +136,6 @@
         <option value="$PROJECT_DIR$/pages/profile_page.py" />
         <option value="$PROJECT_DIR$/tests/test_talents_evidence_tab.py" />
         <option value="$PROJECT_DIR$/tests/test_password_change_2.py" />
-        <option value="$PROJECT_DIR$/tests/test_login_page.py" />
         <option value="$PROJECT_DIR$/pages/talents_form.py" />
         <option value="$PROJECT_DIR$/tests/test_uploadimg.py" />
         <option value="$PROJECT_DIR$/tests/test_switch_frames.py" />
@@ -142,13 +152,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/test_mousehover.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/browsers/browser.py" />
         <option value="$PROJECT_DIR$/locators/locators.py" />
+        <option value="$PROJECT_DIR$/tests/test_login_page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="93" />
+    <option name="x" value="-18" />
+    <option name="y" value="12" />
     <option name="width" value="1628" />
     <option name="height" value="1028" />
   </component>
@@ -185,6 +197,11 @@
               <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
@@ -355,7 +372,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="93" width="1628" height="1028" extended-state="0" />
+    <frame x="-18" y="12" width="1628" height="1028" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1836478" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -408,13 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/browsers/browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -521,9 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_login_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -547,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locators/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/personalitytraits_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -563,8 +563,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/registration_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/browsers/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locators/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="192" column="138" selection-start-line="192" selection-start-column="138" selection-end-line="192" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2770">
+          <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

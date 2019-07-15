@@ -6,6 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import sys
 import os
+
 sys.path.append(os.path.join(os.path.dirname(__file__), ".", ".."))
 from pages.login_page import LoginPage
 from pages.home_page import HomePage
@@ -157,8 +158,6 @@ class TestLoginPage(unittest.TestCase):
         self.assertEqual(title, "ProMytheUs - Password Reset")
         driver.back()
 
-
-
     @classmethod
     def tearDownClass(cls):
         # Close window
@@ -167,9 +166,14 @@ class TestLoginPage(unittest.TestCase):
         cls.driver.quit()
         print("Test Complete")
 
-# if __name__ == '__main__':
-#    unittest.main()
 
 if __name__ == '__main__':
-     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=
-                                                            "C:/Users/jolee/PyCharmProjects/MySelProject/Promytheus/reports"))
+    unittest.main()
+
+# if __name__ == '__main__':
+#      unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=
+#                                                             "C:/Users/jolee/PyCharmProjects/MySelProject/Promytheus/reports"))
+#
+# if __name__ == '__main__':
+#     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=
+#                                                            "/Users/jabeentausia/PycharmProjects/Promytheus/MySelProject/Promytheus/reports"))

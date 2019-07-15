@@ -4,3 +4,4 @@ class Browser:
 
         self.chrome = "/usr/bin/Promytheus/drivers/chromedriver.exe"
         self.firefox = "/usr/bin/Promytheus/drivers/chromedriver.exe"
+
