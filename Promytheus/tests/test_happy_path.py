@@ -11,6 +11,7 @@ from pages.login_page import LoginPage
 from browsers.browser import Browser
 from pages.personal_page import TalentPage
 from pages.talenttrait_page import TraitsPage
+from Promytheus.pages.personalit_traits_page import p_traits
 
 
 class TestLoginPage(unittest.TestCase):
@@ -51,6 +52,28 @@ class TestLoginPage(unittest.TestCase):
         # talent trait form
         trait = TraitsPage(driver)
         trait.complete_talent_trait_tab()
+        time.sleep(2)
+
+        #personality traits tab
+        ptraits = p_traits(driver)
+        time.sleep(2)
+        ptraits.click_traits_tab()
+        time.sleep(2)
+
+        # clicking on the check boxes in the personality traits page
+        # ptraits.click_chkbx_pttab()
+        # time.sleep(1)
+
+        # click next button to navigate to story page
+        ptraits.click_next_btn()
+        time.sleep(2)
+
+        #story tab
+        ptraits.enter_age_storytab()
+        time.sleep(2)
+
+        #click next button on stroy tab
+        ptraits.click_next_button_storytab()
         time.sleep(2)
 
     @classmethod
