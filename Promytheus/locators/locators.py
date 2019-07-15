@@ -1,5 +1,4 @@
 class Locators:
-
     # ----------------------------------- Login Page locators ------------------------------------
     email_textbox_xpath = "//input[@name='email']"
     pass_textbox_xpath = "//input[@name='password']"
@@ -45,6 +44,9 @@ class Locators:
     reset_pass_link_xpath = "//a[contains(text(), 'password')]"
 
     register_btn_xpath = "//a[@class='btn btn-block btn-default']"
+
+    regpage_register_btn_xpath = "//a[@class='btn btn-block btn-default']"
+
     regpage_fname_xpath = "//input[@id='signUpFirstName']"
     regpage_mname_xpath = "//input[@id='signUpMiddleName']"
     regpage_lname_xpath = "//input[@id='signUpLastName']"
@@ -61,6 +63,7 @@ class Locators:
     regpage_createbtn_xpath = "//button[@id='createAccount']"
     regpage_okbtn_aftcreate_xpath = "/html/body/div[2]/div[7]/div/button"
     regpage_exixting_emailid_errormsg_xpath = "//span[@class='text-danger']"
+
     # ----------------------------- Talents Form General ----------------------------
 
     # Next button
@@ -73,12 +76,13 @@ class Locators:
     category_business_xpath = "//*[normalize-space(text()) and normalize-space(.)='Enter category name...'])[1]/following::span[3]"
 
     # ------------------------------------ Personal Tab ------------------------------------
+
+    # Personality Traits tab
     pt_personality_tab_xpath = "//span[contains(text(),'Personality Traits')]"
     pt_checkbox1_xpath = "//tr[3]//td[2]//label[1]//input[1]"
     pt_checkbox6_xpath = "//tr[6]//td[2]//label[1]//input[1]"
     # pt_checkbox16_xpath = "//tr[16]//td[2]//label[1]//input[1"
     pt_nextbtn_xpath = "//div[@class='form-wizard-footer']//button[@class='btn btn-primary ng-binding'][contains(text(),'Next')]"
-
 
     # ------------------------------------ Story Tab ------------------------------------
     stry_storytab_xpath = "//span[contains(text(),'Story')]"

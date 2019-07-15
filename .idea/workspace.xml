@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f73cd5e-473a-4b70-a01c-1f8bc320b560" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Promytheus/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Promytheus/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Promytheus/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Promytheus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Promytheus/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Promytheus/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Promytheus/main.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Promytheus/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Promytheus/locators/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Promytheus/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Promytheus/pages/registration_page.py" afterDir="false" />
+>>>>>>> origin/vanya_pvt_branch
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +19,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Promytheus/locators/locators.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
               <caret line="100" column="87" selection-start-line="100" selection-start-column="87" selection-end-line="100" selection-end-column="87" />
+=======
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Promytheus/locators/locators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Promytheus/pages/registration_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="75" lean-forward="true" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+              <folding>
+                <element signature="e#1#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Promytheus/pages/personalitytraits_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+>>>>>>> origin/vanya_pvt_branch
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
     </leaf>
   </component>
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Promytheus/tests/test_personalitytraits_page.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+>>>>>>> origin/vanya_pvt_branch
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -33,6 +85,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Promytheus/locators/locators.py" />
+<<<<<<< HEAD
       </list>
     </option>
   </component>
@@ -42,6 +95,11 @@
         <option value="$PROJECT_DIR$/.idea/unicorn.iml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+=======
+        <option value="$PROJECT_DIR$/Promytheus/pages/personalitytraits_page.py" />
+        <option value="$PROJECT_DIR$/Promytheus/pages/registration_page.py" />
+        <option value="$PROJECT_DIR$/Promytheus/tests/test_personalitytraits_page.py" />
+>>>>>>> origin/vanya_pvt_branch
       </list>
     </option>
   </component>
@@ -54,11 +112,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Course" />
+=======
+>>>>>>> origin/vanya_pvt_branch
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="Selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selenium" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -73,6 +135,34 @@
               <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
               <item name="locators" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+              <item name="unicorn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicorn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unicorn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicorn" type="462c0819:PsiDirectoryNode" />
+              <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unicorn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicorn" type="462c0819:PsiDirectoryNode" />
+              <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
+              <item name="locators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unicorn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicorn" type="462c0819:PsiDirectoryNode" />
+              <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unicorn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicorn" type="462c0819:PsiDirectoryNode" />
+              <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> origin/vanya_pvt_branch
           </expand>
           <select />
         </subPane>
@@ -81,7 +171,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Promytheus" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> origin/vanya_pvt_branch
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -110,12 +204,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Educational.CheckDetails" />
+=======
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+>>>>>>> origin/vanya_pvt_branch
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -123,22 +230,75 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+=======
+>>>>>>> origin/vanya_pvt_branch
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+<<<<<<< HEAD
+=======
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+>>>>>>> origin/vanya_pvt_branch
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Promytheus/locators/locators.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="292">
           <caret line="100" column="87" selection-start-line="100" selection-start-column="87" selection-end-line="100" selection-end-column="87" />
         </state>
       </provider>
     </entry>
+=======
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Promytheus/pages/registration_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="75" lean-forward="true" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+          <folding>
+            <element signature="e#1#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Promytheus/pages/personalitytraits_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Promytheus/tests/test_personalitytraits_page.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> origin/vanya_pvt_branch
   </component>
 </project>
