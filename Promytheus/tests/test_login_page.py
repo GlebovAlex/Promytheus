@@ -9,9 +9,9 @@ from selenium import webdriver
 # import os
 
 # sys.path.append(os.path.join(os.path.dirname(__file__), ".", ".."))
-from pages.login_page import LoginPage
-from pages.home_page import HomePage
-from browsers.browser import Browser
+from Promytheus.pages.login_page import LoginPage
+from Promytheus.pages.home_page import HomePage
+from Promytheus.browsers.browser import Browser
 
 
 class TestLoginPage(unittest.TestCase):
