@@ -5,13 +5,13 @@ import json
 # import HtmlTestRunner
 from selenium import webdriver
 # from selenium.webdriver.chrome.options import Options
-# import sys
-# import os
+import sys
+import os
 
-# sys.path.append(os.path.join(os.path.dirname(__file__), ".", ".."))
-from Promytheus.Promytheus.pages.login_page import LoginPage
-from Promytheus.Promytheus.pages.home_page import HomePage
-from Promytheus.Promytheus.browsers.browser import Browser
+sys.path.append(os.path.join(os.path.dirname(__file__), ".", ".."))
+from pages.login_page import LoginPage
+from pages.home_page import HomePage
+from browsers.browser import Browser
 
 
 class TestLoginPage(unittest.TestCase):
