@@ -4,7 +4,7 @@ import time
 import json
 # import HtmlTestRunner
 from selenium import webdriver
-# from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.options import Options
 import sys
 import os
 
@@ -18,9 +18,15 @@ class TestLoginPage(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        options = Options()
+        options.headless = True
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.binary_location = '/usr/bin/google-chrome'
+        cls.driver = webdriver.Chrome(options=options, executable_path='/usr/bin/chromedriver')
         b = Browser()
-        cls.driver = webdriver.Chrome(executable_path=b.chrome)
-        # cls.driver = webdriver.Firefox(executable_path=b.firefox)
+        # cls.driver = webdriver.Chrome(executable_path=b.chrome)
+        # # cls.driver = webdriver.Firefox(executable_path=b.firefox)
         # cls.driver = webdriver.Edge()
         cls.driver.delete_all_cookies()
         cls.driver.implicitly_wait(20)
