@@ -34,7 +34,7 @@ class TestLoginPage(unittest.TestCase):
 
     def test_01_success_login_logout_valid_credentials(self):
         # Test Case 1: Verify successful login with valid email/valid password
-        with open('/usr/bin/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
+        with open('Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
         driver = self.driver
         driver.get("https://app.promytheus.net")
