@@ -2,13 +2,13 @@
 import unittest
 import time
 import json
-import HtmlTestRunner
+# import HtmlTestRunner
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import sys
-import os
+# from selenium.webdriver.chrome.options import Options
+# import sys
+# import os
 
-sys.path.append(os.path.join(os.path.dirname(__file__), ".", ".."))
+# sys.path.append(os.path.join(os.path.dirname(__file__), ".", ".."))
 from pages.login_page import LoginPage
 from pages.home_page import HomePage
 from browsers.browser import Browser
