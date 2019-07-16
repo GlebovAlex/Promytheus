@@ -112,11 +112,11 @@ class TestLoginPage(unittest.TestCase):
         time.sleep(1)
         ev.enter_text_in_testimony_family_text_box_01("Testing")
         time.sleep(1)
-        ev.upload_file_family_01_field("/Promytheus/testdata/painting_demo.jpg")
+        ev.upload_file_family_01_field("Promytheus/testdata/painting_demo.jpg")
         time.sleep(2)
         ev.enter_text_in_talent_work_product_field("Testing")
         time.sleep(1)
-        ev.upload_file_talent_work_product_field("/Promytheus/testdata/painting_demo.jpg")
+        ev.upload_file_talent_work_product_field("Promytheus/testdata/painting_demo.jpg")
         time.sleep(1)
 
         t = TalentsForm(driver)
