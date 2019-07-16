@@ -3,11 +3,11 @@ from selenium import webdriver
 import unittest
 import time
 # import HtmlTestRunner
+import json
+from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
 import sys
 import os
-import json
-from selenium.webdriver.support.ui import Select
 sys.path.append(os.path.join(os.path.dirname(__file__), ".", "."))
 from pages.login_page import LoginPage
 from browsers.browser import Browser
