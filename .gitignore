@@ -17,9 +17,6 @@ node_modules
  __pycache__/
  *.pyc
 
-# image file
-*.jpg
-
 tests/practice_api.py
 tests/test_select_dropdown.py
 tests/test_switch_frames.py

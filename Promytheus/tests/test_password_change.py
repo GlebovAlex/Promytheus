@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-from selenium import webdriver
+import unittest
 import time
 import json
-import unittest
+from selenium import webdriver
 # import HtmlTestRunner
 from selenium.webdriver.chrome.options import Options
 import os
