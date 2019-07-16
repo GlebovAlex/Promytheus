@@ -34,7 +34,7 @@ class TestLoginPage(unittest.TestCase):
 
     def test_01_success_login_logout_valid_credentials(self):
         # Test Case 1: Verify successful login with valid email/valid password
-        with open('C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
+        with open('/usr/bin/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
         driver = self.driver
         driver.get("https://app.promytheus.net")
@@ -53,7 +53,7 @@ class TestLoginPage(unittest.TestCase):
 
     def test_02_unsuccessful_login_invalid_email(self):
         # Test Case 2: Verify unsuccessful login/expected error message with invalid email/valid password
-        with open('C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
+        with open('/usr/bin/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
         driver = self.driver
         driver.get("https://app.promytheus.net")
@@ -66,7 +66,7 @@ class TestLoginPage(unittest.TestCase):
 
     def test_03_unsuccessful_login_invalid_password(self):
         # Test Case 3: Verify unsuccessful login/expected error message with valid email/invalid password
-        with open('C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
+        with open('/usr/bin/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
         driver = self.driver
         driver.get("https://app.promytheus.net")
@@ -79,7 +79,7 @@ class TestLoginPage(unittest.TestCase):
 
     def test_04_unsuccessful_login_blank_email(self):
         # Test Case 4: Verify unsuccessful login/expected error message with blank email/valid password
-        with open('C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
+        with open('/usr/bin/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
         driver = self.driver
         driver.get("https://app.promytheus.net")
@@ -93,7 +93,7 @@ class TestLoginPage(unittest.TestCase):
 
     def test_05_unsuccessful_login_blank_pass(self):
         # Test Case 5: Verify unsuccessful login/expected error message with valid email/blank password
-        with open('C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
+        with open('/usr/bin/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
         driver = self.driver
         driver.get("https://app.promytheus.net")
@@ -118,7 +118,7 @@ class TestLoginPage(unittest.TestCase):
 
     def test_07_unsuccessful_login_unconfirmed_email(self):
         # Test Case 8: Verify unsuccessful login with valid but unconfirmed email
-        with open('C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
+        with open('/usr/bin/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
         driver = self.driver
         driver.get("https://app.promytheus.net")
@@ -133,7 +133,7 @@ class TestLoginPage(unittest.TestCase):
     def test_08_unsuccessful_login_userA_email_userB_pass(self):
         # Test Case 8: Verify unsuccessful login with valid userA email/valid userB password
         # Assume user 2 password different than user 1 password
-        with open('C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
+        with open('/usr/bin/Promytheus/testdata/test_data.json', encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
         driver = self.driver
         driver.get("https://app.promytheus.net")
