@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4b576d7-63b4-44dd-adf5-01e3ac83d628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_happy_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_happy_path.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="-578">
               <caret line="36" column="53" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="53" />
               <folding>
                 <element signature="e#19#34#0" expanded="true" />
@@ -65,20 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/browsers/browser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="114" column="40" lean-forward="true" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
               <folding>
                 <element signature="e#19#49#0" expanded="true" />
               </folding>
@@ -86,13 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_password_change.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="296">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+              <folding>
+                <element signature="e#19#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdata/painting_demo.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -144,8 +143,8 @@
         <option value="$PROJECT_DIR$/pages/home_page.py" />
         <option value="$PROJECT_DIR$/tests/test_login_page.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/tests/test_happy_path.py" />
         <option value="$PROJECT_DIR$/tests/test_password_change.py" />
+        <option value="$PROJECT_DIR$/tests/test_happy_path.py" />
       </list>
     </option>
   </component>
@@ -191,11 +190,6 @@
             <path>
               <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Promytheus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Promytheus" type="462c0819:PsiDirectoryNode" />
               <item name="testdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,6 +222,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jolee\Desktop\Selenium\Promytheus\testdata" />
       <recent name="C:\Users\jolee\Desktop\Selenium\Promytheus\tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -371,11 +366,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15400843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15400843" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32997763" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45861298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39791185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -608,16 +604,6 @@
     <entry file="file://$PROJECT_DIR$/tests/Moon_Chae-Won-p001.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="114" column="40" lean-forward="true" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
-          <folding>
-            <element signature="e#19#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -625,9 +611,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/painting_demo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_password_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+          <folding>
+            <element signature="e#19#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="-578">
           <caret line="36" column="53" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="53" />
           <folding>
             <element signature="e#19#34#0" expanded="true" />
@@ -635,10 +634,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_password_change.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="119" column="21" lean-forward="true" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+          <folding>
+            <element signature="e#19#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
