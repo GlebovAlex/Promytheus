@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 class Browser:
 
     def __init__(self):
