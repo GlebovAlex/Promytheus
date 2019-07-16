@@ -2,7 +2,8 @@
 from selenium import webdriver
 import unittest
 import time
-import HtmlTestRunner
+# import HtmlTestRunner
+from selenium.webdriver.chrome.options import Options
 import sys
 import os
 import json
@@ -22,9 +23,15 @@ class TestLoginPage(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        options = Options()
+        options.headless = True
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
+        options.binary_location = '/usr/bin/google-chrome'
+        cls.driver = webdriver.Chrome(options=options, executable_path='/usr/bin/chromedriver')
         b = Browser()
-        cls.driver = webdriver.Chrome(executable_path=b.chrome)
-        # cls.driver = webdriver.Firefox(executable_path=b.firefox)
+        # cls.driver = webdriver.Chrome(executable_path=b.chrome)
+        # # cls.driver = webdriver.Firefox(executable_path=b.firefox)
         # cls.driver = webdriver.Edge()
         cls.driver.delete_all_cookies()
         cls.driver.implicitly_wait(20)
@@ -34,7 +41,7 @@ class TestLoginPage(unittest.TestCase):
         # with open('/Users/jabeentausia/PycharmProjects/Promytheus/Promytheus/testdata/test_data.json',
         #           encoding='utf-8') as data_file:
         #     data = json.loads(data_file.read())
-        with open('C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json',
+        with open('Promytheus/testdata/test_data.json',
                   encoding='utf-8') as data_file:
             data = json.loads(data_file.read())
 
@@ -105,19 +112,11 @@ class TestLoginPage(unittest.TestCase):
         time.sleep(1)
         ev.enter_text_in_testimony_family_text_box_01("Testing")
         time.sleep(1)
-        ev.upload_file_family_01_field("C:/Users/jolee/Desktop/Moon_Chae-Won-p001.jpg")
+        ev.upload_file_family_01_field("Promytheus/tests/Moon_Chae-Won-p001.jpg")
         time.sleep(2)
         ev.enter_text_in_talent_work_product_field("Testing")
         time.sleep(1)
-        ev.upload_file_talent_work_product_field("C:/Users/jolee/Desktop/Moon_Chae-Won-p001.jpg")
-        time.sleep(1)
-
-        # Clean up
-        driver.find_element_by_xpath(ev.testimony_family_textbox_01_xpath).clear()
-        time.sleep(1)
-        driver.find_element_by_xpath(ev.talent_work_product_textfield_xpath).clear()
-        time.sleep(1)
-        driver.find_element_by_xpath(ev.testimony_checkbox_family_xpath).click()
+        ev.upload_file_talent_work_product_field("Promytheus/tests/Moon_Chae-Won-p001.jpg")
         time.sleep(1)
 
         t = TalentsForm(driver)

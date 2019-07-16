@@ -2,11 +2,12 @@ from selenium import webdriver
 import time
 import json
 import unittest
-import HtmlTestRunner
+# import HtmlTestRunner
+from selenium.webdriver.chrome.options import Options
 import os
 import sys
 
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.append(os.path.join(os.path.dirname(__file__), ".", ".."))
 from browsers.browser import Browser
 from pages.login_page import LoginPage
 from pages.home_page import HomePage
@@ -16,7 +17,7 @@ from pages.profile_page import MyProfilePage
 class TestPasswordChangePage(unittest.TestCase):
 
     global data
-    with open("C:/Users/jolee/Desktop/Selenium/Promytheus/testdata/test_data.json",
+    with open("Promytheus/testdata/test_data.json",
               encoding='utf-8') as data_file:
         data = json.loads(data_file.read())
     global appURL
@@ -24,8 +25,13 @@ class TestPasswordChangePage(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        options = Options()
+        options.headless = True
+        options.add_argument("--no-sandbox")
+        options.add_argument("disable--dev-shm-usage")
+        options.binary_location("usr/bin/google-chrome")
         b = Browser()
-        cls.driver = webdriver.Chrome(executable_path=b.chrome)
+        cls.driver = webdriver.Chrome(options=options, executable_path=b.chrome)
         cls.driver.maximize_window()
         cls.driver.implicitly_wait(20)
 
