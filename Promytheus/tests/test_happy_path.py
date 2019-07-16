@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/python3
 from selenium import webdriver
 import unittest
 import time
