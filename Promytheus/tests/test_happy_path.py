@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), ".", "."))
+sys.path.append(os.path.join(os.path.dirname(__file__), ".", ".."))
 from pages.login_page import LoginPage
 from browsers.browser import Browser
 from pages.personal_page import TalentPage
@@ -29,7 +29,7 @@ class TestLoginPage(unittest.TestCase):
         options.add_argument('--disable-dev-shm-usage')
         options.binary_location = '/usr/bin/google-chrome'
         cls.driver = webdriver.Chrome(options=options, executable_path='/usr/bin/chromedriver')
-        b = Browser()
+        # b = Browser()
         # cls.driver = webdriver.Chrome(executable_path=b.chrome)
         # # cls.driver = webdriver.Firefox(executable_path=b.firefox)
         # cls.driver = webdriver.Edge()
