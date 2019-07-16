@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4b576d7-63b4-44dd-adf5-01e3ac83d628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/unicorn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/unicorn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/personalitytraits_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personalitytraits_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_happy_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_happy_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,18 +43,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_talent_form_evidence_tab2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="32" selection-start-line="32" selection-end-line="34" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/talents_evidence_tab.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
@@ -69,23 +54,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+            <state relative-caret-position="2858">
+              <caret line="176" column="73" selection-start-line="176" selection-start-column="73" selection-end-line="176" selection-end-column="73" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_happy_path2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -157,14 +133,14 @@
         <option value="$PROJECT_DIR$/locators/locators.py" />
         <option value="$PROJECT_DIR$/pages/talents_evidence_tab.py" />
         <option value="$PROJECT_DIR$/pages/personalitytraits_page.py" />
-        <option value="$PROJECT_DIR$/tests/test_happy_path.py" />
         <option value="$PROJECT_DIR$/tests/test_happy_path2.py" />
+        <option value="$PROJECT_DIR$/tests/test_happy_path.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-52" />
-    <option name="width" value="1940" />
+    <option name="x" value="-7" />
+    <option name="width" value="1931" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -343,9 +319,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 13m 20s.xml">
-      <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 16m 30s.xml">
       <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
     </history-entry>
@@ -373,16 +346,19 @@
     <history-entry file="Unittests_in_test_happy_path_py - 2019.07.15 at 13h 40m 39s.xml">
       <configuration name="Unittests in test_happy_path.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_happy_path2_py - 2019.07.15 at 13h 48m 36s.xml">
+      <configuration name="Unittests in test_happy_path2.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-52" y="0" width="1940" height="1028" extended-state="0" />
+    <frame x="-7" y="0" width="1931" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15352261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15425251" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45861298" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45861298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39791185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,20 +601,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_happy_path2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="175" column="20" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="180" selection-start-line="180" selection-end-line="182" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_happy_path2.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_happy_path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
+        <state relative-caret-position="2858">
+          <caret line="176" column="73" selection-start-line="176" selection-start-column="73" selection-end-line="176" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
