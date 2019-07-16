@@ -30,7 +30,7 @@ class TestPasswordChangePage(unittest.TestCase):
         options.headless = True
         options.add_argument("--no-sandbox")
         options.add_argument("disable--dev-shm-usage")
-        options.binary_location("usr/bin/google-chrome")
+        options.binary_location = '/usr/bin/google-chrome'
         b = Browser()
         cls.driver = webdriver.Chrome(options=options, executable_path=b.chrome)
         cls.driver.maximize_window()
