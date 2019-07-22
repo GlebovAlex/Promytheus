@@ -20,11 +20,11 @@ class TestProm(unittest.TestCase):
         time.sleep(8)
         desired_capabilities["appActivity"] = "com.promytheus.findmytalent.MainActivity"
 
-    def test_01_click_select_choice_3(self):
+    def test_01_select_choice_3(self):
         main = MainScreen(self.driver)
         main.click_choice_button(3)
 
-    def test_02_click_select_choice_5(self):
+    def test_02_select_choice_5(self):
         main = MainScreen(self.driver)
         main.click_choice_button(5)
 
