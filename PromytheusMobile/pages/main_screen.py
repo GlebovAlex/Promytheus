@@ -1,6 +1,7 @@
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 from appium.webdriver.common.mobileby import MobileBy
+from appium.webdriver.common.touch_action import TouchAction
 import time
 
 
@@ -10,57 +11,50 @@ class MainScreen:
 
         self.driver = driver
 
-        self.choice_1_btn = WebDriverWait(driver, 5).until(
+        # Choice 1: Do they wear their emotions on a sleeve? (Are they extremely emotional?)
+        self.choice_1_btn_emotional = WebDriverWait(driver, 5).until(
             ec.visibility_of_element_located((
                 MobileBy.XPATH, "//android.view.View[@bounds='[920,322][1006,408]']")))
-
-        self.choice_2_btn = WebDriverWait(driver, 5).until(
+        # Choice 2: Loves Running/ Jumping
+        self.choice_2_btn_running_jumping = WebDriverWait(driver, 5).until(
             ec.visibility_of_element_located((
                 MobileBy.XPATH, "//android.view.View[@bounds='[920,548][1006,634]']")))
-
-        self.choice_3_btn = WebDriverWait(driver, 5).until(
+        # Choice 3: Connects the dots in things in unique ways - reads between the lines
+        self.choice_3_btn_connect_the_dots_in_things_in_unique_ways = WebDriverWait(driver, 5).until(
             ec.visibility_of_element_located((
                 MobileBy.XPATH, "//android.view.View[@bounds='[920,774][1006,860]']")))
-
-        self.choice_4_btn = WebDriverWait(driver, 5).until(
+        # Choice 4: Do people always love what they cook?
+        self.choice_4_btn_do_people_love_what_they_cook = WebDriverWait(driver, 5).until(
             ec.visibility_of_element_located((
                 MobileBy.XPATH, "//android.view.View[@bounds='[920,1000][1006,1086]']")))
-
-        self.choice_5_btn = WebDriverWait(driver, 5).until(
+        # Choice 5: Do they like to make new things almost on a daily basis?
+        self.choice_5_btn_do_they_like_to_make_new_things = WebDriverWait(driver, 5).until(
             ec.visibility_of_element_located((
                 MobileBy.XPATH, "//android.view.View[@bounds='[920,1226][1006,1312]']")))
-
-        self.choice_6_btn = WebDriverWait(driver, 5).until(
+        # Choice 6: Did they learn how to program on their own?
+        self.choice_6_btn_do_they_learn_how_to_program_on_their_own = WebDriverWait(driver, 5).until(
             ec.visibility_of_element_located((
                 MobileBy.XPATH, "//android.view.View[@bounds='[920,1452][1006,1538]']")))
-
-        self.choice_7_btn = WebDriverWait(driver, 5).until(
+        # Choice 7: Do they calculate numbers faster than a calculator?
+        self.choice_7_btn_do_they_calculate_numbers_faster = WebDriverWait(driver, 5).until(
             ec.visibility_of_element_located((
                 MobileBy.XPATH, "//android.view.View[@bounds='[920,1678][1006,1764]']")))
+        # # Main Screen 1 NEXT Button
+        # self.next_btn = WebDriverWait(driver, 5).until(
+        #     ec.visibility_of_element_located((MobileBy.ID, "com.promytheus.findmytalent:id/button_next")))
 
-        self.elements = driver.find_elements_by_id("com.promytheus.findmytalent:id/checkbox")
+    def select_trait_1_emotional(self):
+        self.choice_1_btn_emotional.click()
 
-    def click_choice_button(self, choice):
-        num = str(choice)
-        if num == '1':
-            self.choice_1_btn.click()
-        elif num == '2':
-            self.choice_2_btn.click()
-        elif num == '3':
-            self.choice_3_btn.click()
-        elif num == '4':
-            self.choice_4_btn.click()
-        elif num == '5':
-            self.choice_5_btn.click()
-        elif num == '6':
-            self.choice_6_btn.click()
-        elif num == '7':
-            self.choice_7_btn.click()
-        else:
-            print("Error: Could not understand input. Choice should be between '1-9'.")
-        time.sleep(3)
+    def select_trait_2_running_jumping(self):
+        self.choice_2_btn_running_jumping.click()
 
-    def click_through_all_buttons(self):
-        for element in self.elements:
-            element.click()
-        time.sleep(3)
+    def click_next_btn(self):
+        action = TouchAction(self.driver)
+        i = 0
+        while i < 5:
+            action.press(x=15, y=1528).move_to(x=18, y=371).release().perform()
+            i += 1
+        ele = self.driver.find_element_by_id("com.promytheus.findmytalent:id/button_next")
+        ele.click()
+        time.sleep(2)
