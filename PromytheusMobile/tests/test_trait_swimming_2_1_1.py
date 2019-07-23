@@ -1,10 +1,9 @@
 from appium import webdriver
 import time
 import unittest
-from pages.main_screen import MainScreen
-from pages.choice_2_running_screens.trait_2_running_path_2 import RunningJumpingScreen
-from pages.choice_2_running_screens.trait_2_running_path_2_1 import RunningJumpingScreen2
-from pages.choice_2_running_screens.trait_2_running_path_2_1_1 import RunningJumpingScreen3
+from PromytheusMobile.pages.main_screen import MainScreen
+from PromytheusMobile.pages.choice_2_running_screens.trait_2_running_path_2 import RunningJumpingScreen
+from PromytheusMobile.pages.choice_2_running_screens.trait_2_running_path_2_1 import RunningJumpingScreen2
 
 
 class TestProm(unittest.TestCase):
