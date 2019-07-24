@@ -7,16 +7,22 @@ from PromytheusMobile.pages.main_screen import MainScreen
 class TestProm(unittest.TestCase):
 
     def setUp(self):
+        userName = "joanlee1"
+        accessKey = "QJ3u2m7G7iqF7U7sqEit"
         desired_capabilities = {
+            "name": "Promytheus Mobile Test: test_tait_psychic_1.py",
             "platformName": "Android",
             "deviceName": "Pixel 2 Android Emulator",
-            "udid": "emulator-5554",
+            "device": "Google Pixel",
+            "browserstack.appium_version": "1.13.0",
+            "os": "android",
+            "os_version": "7.1",
             "appPackage": "com.promytheus.findmytalent",
             "appWaitActivity": "com.promytheus.findmytalent.MainActivity",
             "appActivity": "com.promytheus.findmytalent.SplashActivity",
-            "app": "C:/Users/jolee/Downloads/findmytalent-prod app-release.apk"
+            "app": "bs://48ec8a4ad46f4396e1ec613ed61e8529e55851e1"
         }
-        self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_capabilities)
+        self.driver = webdriver.Remote("http://" + userName + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub", desired_capabilities)
         time.sleep(8)
         desired_capabilities["appActivity"] = "com.promytheus.findmytalent.MainActivity"
 
