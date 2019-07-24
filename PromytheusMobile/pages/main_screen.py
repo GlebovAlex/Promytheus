@@ -51,10 +51,7 @@ class MainScreen:
 
     def click_next_btn(self):
         action = TouchAction(self.driver)
-        i = 0
-        while i < 5:
-            action.press(x=15, y=1528).move_to(x=18, y=371).release().perform()
-            i += 1
+        action.press(x=15, y=1700).move_to(x=15, y=300).release().perform()
         ele = self.driver.find_element_by_id("com.promytheus.findmytalent:id/button_next")
         ele.click()
         time.sleep(2)
