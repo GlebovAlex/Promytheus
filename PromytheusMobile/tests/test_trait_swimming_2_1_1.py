@@ -13,7 +13,7 @@ class TestProm(unittest.TestCase):
         userName = "joanlee1"
         accessKey = "QJ3u2m7G7iqF7U7sqEit"
         desired_capabilities = {
-            "name": "Promytheus Mobile Test: test_tait_psychic_1.py",
+            "name": "Promytheus Mobile Test: test_tait_swimming_2_1_1.py",
             "platformName": "Android",
             "deviceName": "Pixel Android Emulator",
             "device": "Google Pixel",
