@@ -12,7 +12,7 @@ class TestProm(unittest.TestCase):
         desired_capabilities = {
             "name": "Promytheus Mobile Test: test_tait_psychic_1.py",
             "platformName": "Android",
-            "deviceName": "Pixel 2 Android Emulator",
+            "deviceName": "Pixel Android Emulator",
             "device": "Google Pixel",
             "browserstack.appium_version": "1.13.0",
             "os": "android",
@@ -23,7 +23,7 @@ class TestProm(unittest.TestCase):
             "app": "bs://48ec8a4ad46f4396e1ec613ed61e8529e55851e1"
         }
         self.driver = webdriver.Remote("http://" + userName + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub", desired_capabilities)
-        time.sleep(8)
+        time.sleep(3)
         desired_capabilities["appActivity"] = "com.promytheus.findmytalent.MainActivity"
 
     def test_01_select_trait_psychic_path_1(self):
@@ -32,7 +32,7 @@ class TestProm(unittest.TestCase):
         main.click_next_btn()
         result = self.driver.find_element_by_id("com.promytheus.findmytalent:id/category_name_text").text
         self.assertEqual(result, "Psychic/Intuitive/Predictive")
-        time.sleep(4)
+        time.sleep(3)
 
     def tearDown(self):
         self.driver.quit()
