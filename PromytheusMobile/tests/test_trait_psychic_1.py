@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from appium import webdriver
 import time
 import unittest
@@ -22,7 +23,8 @@ class TestProm(unittest.TestCase):
             "appActivity": "com.promytheus.findmytalent.SplashActivity",
             "app": "bs://48ec8a4ad46f4396e1ec613ed61e8529e55851e1"
         }
-        self.driver = webdriver.Remote("http://" + userName + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub", desired_capabilities)
+        self.driver = webdriver.Remote("http://" + userName + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub",
+                                       desired_capabilities)
         time.sleep(3)
         desired_capabilities["appActivity"] = "com.promytheus.findmytalent.MainActivity"
 

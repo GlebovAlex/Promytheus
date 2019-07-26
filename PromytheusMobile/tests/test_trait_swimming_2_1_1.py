@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from appium import webdriver
 import time
 import unittest
