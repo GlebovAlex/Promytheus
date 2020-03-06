@@ -37,6 +37,4 @@ jobs:
         pip install pytest
         pytest
     - name: Execute file
-      run: "Application name: ${{ env.APPLICATION_NAME }}"
-    - name: List curent folder
-      run: Ls -La      
+      run: python main.py
