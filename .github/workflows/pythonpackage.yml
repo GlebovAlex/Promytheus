@@ -2,9 +2,7 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: Web-Automation
-env:
- APPLICATION_NAME: "Prommytheus"
- DEPLOY_PAVKAGE_NAME: "promytheus-ver-${{ github.sha}} 
+
 
  
 
@@ -29,8 +27,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     
-    - name: Fit clone my repo
-      run: actions/checkout@v1
+  
     - name: Install Selenium
       run:
         pip install selenium
