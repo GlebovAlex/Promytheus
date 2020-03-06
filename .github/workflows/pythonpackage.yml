@@ -2,6 +2,9 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: Web-Automation
+env:
+ APPLICATION_NAME: "Promytheus" 
+ 
 
 on:
   push:
@@ -13,6 +16,7 @@ jobs:
   my-testing: 
 
     runs-on: ubuntu-latest
+    
     strategy:
       matrix:
         python-version: [3.8]
@@ -32,3 +36,5 @@ jobs:
       run: 
         pip install pytest
         pytest
+    - name: Execute file
+      run: "Application name: ${{ env.APPLICATION_NAME }}"
