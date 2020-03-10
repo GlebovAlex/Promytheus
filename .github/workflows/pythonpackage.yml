@@ -27,5 +27,7 @@ jobs:
       run: 
         pip install pytest
         pytest
+    - name: Git clone my repo
+      run: actions/checkout@1
     - name: Execute file
       run: python main.py
